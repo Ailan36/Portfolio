@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgba(223, 223, 231, 0.937);
+    color: rgb(90, 83, 83);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(78, 78, 94);
+    height: 70px;
+    color: white;
+}
+nav ul {
+    display: flex;
+    justify-content:center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color:rgb(216, 216, 224);
+    font-size: 1.05rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 120px ;
+    align-items: center;
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftsection{
+    font-size: 2.5rem;
+
+}
+.blue{
+    color:rgb(72, 72, 137);
+}
+.gray{
+    color:gray;
+}
+#element{
+    color:rgb(72, 72, 137);
+}
+main hr{
+    border: 0;
+    background-color: rgb(78, 78, 94);
+    height: 2.5px;
+    margin: 40px 80px;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.skills-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.skill-bar {
+    background-color: #333;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.about-content {
+    font-size: 1.5rem;
+    max-width:650px ;
+    text-align: center;
+    margin: 0 auto;
+}
+footer {
+    background-color: rgb(78, 78, 94);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}

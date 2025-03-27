@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">My Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="">projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My Name is <span class="blue"> Ailan </span>
+                <div>and I am a passionate </div> 
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="prtf.png" alt="portfolioimg.png">
+            </div>
+        </section>
+        <hr>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-list">
+            <div class="skill-item">
+                <h3>HTML</h3>
+                <div class="skill-bar" style="width: 90%"></div>
+            </div>
+            <div class="skill-item">
+                <h3>JavaScript</h3>
+                <div class="skill-bar" style="width: 80%"></div>
+            </div>
+            <div class="skill-item">
+                <h3>CSS</h3>
+                <div class="skill-bar" style="width: 70%"></div>
+            </div>
+        </div>
+    </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I am an engineering student with a passion for web development, problem-solving, and creating user-friendly solutions. I specialize in front-end technologies like HTML, CSS, JavaScript, and frameworks like React.</p>
+            </div>
+        </section>
+    
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br><br>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ailan . All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/your-profile" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Designer', 'Video Editor' , 'Web Developer.'],
+      typeSpeed: 50,
+    });
+  </script>
+  <script src="scripts.js"></script>
+  </body>
+</html>
